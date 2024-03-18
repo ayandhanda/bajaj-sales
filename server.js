@@ -3,10 +3,10 @@ const axios = require('axios');
 async function createAccount() {
   try {
     const response = await axios.post('https://customer-analytics-34146.my.salesforce-sites.com/services/apexrest/createAccount', {
-      name: 'Your Full Name',
-      email: 'your_colle@example.com',
-      rollNumber: 'Your Roll Number',
-      phone: 'Your Phone Number'
+      name: 'Ayan Dhanda',
+      email: 'ayan0330.be21@chitkara.edu.in',
+      rollNumber: '2110990330',
+      phone: '9416017087'
     }, {
       headers: {
         'Content-Type': 'application/json'
